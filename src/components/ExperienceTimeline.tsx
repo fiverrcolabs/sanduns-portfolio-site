@@ -1,4 +1,3 @@
-
 export function ExperienceTimeline() {
   return (
     <div className="rounded-xl bg-card border border-border shadow-sm p-8 animate-fade-in space-y-8">
@@ -10,25 +9,9 @@ export function ExperienceTimeline() {
         company="Sysco Labs"
         time="June 2024 – Present"
         type="Full-time"
-        details="Handling backend pricing-related tasks for Sysco Shop, the major e-commerce outlet. Stack: SpringBoot, NodeJS, GraphQL, PostgreSQL, Kafka."
-      />
-
-      {/* HashBaze */}
-      <ExperienceCard
-        role="Software Engineer"
-        company="HashBaze"
-        time="Oct 2023 – Jan 2024"
-        type="Part-time"
-        details="Backend and real-time chat for an online class conducting platform. Stack: NodeJs, Express, MongoDB, SocketIO."
-      />
-
-      {/* WSO2 */}
-      <ExperienceCard
-        role="Software Engineer Intern"
-        company="WSO2"
-        time="Jan 2023 – Jun 2023"
-        type="Internship"
-        details="Designed service endpoints for Consent Management (Open Banking team). Stack: Ballerina, Java, PostgreSQL, Docker."
+        details="Sysco Labs is one of the world's largest broadline food distributors. Our
+team is responsible for handling backend pricing-related tasks on
+Sysco Shop, which is their main e-commerce website. Stack: SpringBoot, NodeJS, GraphQL, PostgreSQL, Kafka."
       />
 
       {/* Freelance */}
@@ -39,14 +22,45 @@ export function ExperienceTimeline() {
         type="Part-time"
         details="Full Stack Developer (long- and short-term, contract based). Project management, client communication. Stack: NextJS, ReactJS, TypeScript, Zustand, Keycloak, Tailwind, NodeJS, SpringBoot, MongoDB, PostgreSQL."
       />
+
+      {/* HashBaze */}
+      <ExperienceCard
+        role="Software Engineer"
+        company="HashBaze"
+        time="Oct 2023 – Jan 2024"
+        type="Part-time"
+        details="Backend development and real-time chat implementation for an online
+class conducting platform. Stack: NodeJs, Express, MongoDB, SocketIO.
+Frontend implementation for an online computer product-selling website.
+Stack: NextJs, Tailwind CSS, TypeScript
+"
+      />
+
+      {/* WSO2 */}
+      <ExperienceCard
+        role="Software Engineer Intern"
+        company="WSO2"
+        time="Jan 2023 – Jun 2023"
+        type="Internship"
+        details="Designed and implemented service endpoints and the DAO layer for
+the Consent Management project within the Open Banking team. Stack: Ballerina, Java, PostgreSQL, Docker."
+      />
     </div>
   );
 }
 
 function ExperienceCard({
-  role, company, time, details, type
+  role,
+  company,
+  time,
+  details,
+  type,
 }: {
-  role: string, company: string, time: string, details: string, type: string
+  role: string;
+  company: string;
+  time: string;
+  details: string;
+  type: string;
 }) {
   return (
     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-8">

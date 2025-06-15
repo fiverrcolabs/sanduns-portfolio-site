@@ -7,7 +7,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import React from "react";
 
 type Project = {
   name: string;
@@ -17,18 +16,6 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    name: "Warranty Wallet",
-    date: "Mar 2023",
-    stack: ["NodeJs", "ReactJS", "Blockchain", "Solidity", "MongoDB"],
-    desc: "Warranty management system leveraging blockchain for secure records, featuring QR scanning and built-in chat.",
-  },
-  {
-    name: "PixelMap",
-    date: "May 2022",
-    stack: ["NodeJs", "ReactJS", "MongoDB", "SocketIO"],
-    desc: "A real-time collaborative 100x100 pixel map. Users color pixels via daily credits; features live previews.",
-  },
   {
     name: "CASAMAX",
     date: "Jan 2025",
@@ -48,6 +35,19 @@ const projects: Project[] = [
     stack: ["DeepLearning", "DApps", "Python", "PyTorch", "Blockchain"],
     desc: "Research to detect Ponzi DApps using multimodal analysis of smart contracts, transactions, and sentiment.",
   },
+  {
+    name: "Warranty Wallet",
+    date: "Mar 2023",
+    stack: ["NodeJs", "ReactJS", "Blockchain", "Solidity", "MongoDB"],
+    desc: "Warranty management system leveraging blockchain for secure records, featuring QR scanning and built-in chat.",
+  },
+  {
+    name: "PixelMap",
+    date: "May 2022",
+    stack: ["NodeJs", "ReactJS", "MongoDB", "SocketIO"],
+    desc: "A real-time collaborative 100x100 pixel map. Users color pixels via daily credits; features live previews.",
+  },
+  
   // Add more projects here as needed!
 ];
 

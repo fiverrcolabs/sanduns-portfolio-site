@@ -31,8 +31,8 @@ export default function Index() {
       <main className="w-full px-4 md:px-20 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-2xl mx-auto">
         <section className="col-span-1 md:col-span-2 space-y-8">
           <BioCard />
-          <SkillsGrid />
           <ExperienceTimeline />
+          <SkillsGrid />
           <ProjectShowcase />
         </section>
         <aside className="col-span-1 space-y-8">

@@ -8,7 +8,7 @@ export function BioCard() {
           I'm a Software Engineer with a smart working personality and a passion for computer science.
           I thrive on learning new technologies, enjoy design challenges, and work confidently within teams.
           <br /><br />
-          <span className="font-semibold">Interests:</span> Badminton, Cricket, Drawing, Painting, Hiking, Crypto
+          {/* <span className="font-semibold">Interests:</span> Badminton, Cricket, Drawing, Painting, Hiking, Crypto */}
         </p>
       </div>
       <div className="flex-shrink-0 w-full md:w-[260px] space-y-4">
@@ -22,12 +22,12 @@ export function BioCard() {
               <span className="text-xs">2020 – 2024</span><br />
               <span className="text-xs font-semibold">GPA: 3.82 (First Class)</span>
             </li>
-            <li className="mt-4">
+            {/* <li className="mt-4">
               <span className="font-medium text-foreground">G.C.E. A/L (Physical Science Stream)</span><br />
               Ananda College Chilaw<br />
               <span className="text-xs">3A passes | Z-Score: 2.022</span><br />
               <span className="text-xs">2005 – 2018</span>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

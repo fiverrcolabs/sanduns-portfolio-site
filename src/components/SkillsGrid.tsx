@@ -3,7 +3,7 @@ const LANGUAGES = [
   "JavaScript", "TypeScript", "Java", "Python"
 ];
 const WEB = [
-  "ReactJS", "NextJS", "Tailwind CSS", "NodeJS", "SpringBoot", "GraphQL", "Firebase", "Git", "Kafka", "Docker"
+   "NodeJS", "SpringBoot", "GraphQL", "ReactJS", "NextJS", "Tailwind CSS", "Git", "Kafka", "Docker", "Redis"
 ];
 const DATABASES = [
   "PostgreSQL", "MongoDB", "MySQL", "Firestore"
