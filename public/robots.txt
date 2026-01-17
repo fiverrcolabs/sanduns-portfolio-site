@@ -12,3 +12,11 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://sanduninduwara.com/sitemap.xml
+
+# Crawl delay (optional, prevents aggressive crawling)
+Crawl-delay: 1
