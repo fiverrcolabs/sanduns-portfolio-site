@@ -4,6 +4,16 @@ export function CertificationsList() {
       <h2 className="text-lg font-semibold mb-2">Certifications & More</h2>
       <ul className="flex flex-col gap-2 text-xs">
         <li className="bg-accent px-2 py-0.5 rounded">
+          <a
+            href="https://www.credly.com/badges/ec3a5e9e-ecb0-4b92-b676-d77fe9a8fd47/public_url"
+            className="hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AWS Certified Solutions Architect - Associate
+          </a>
+        </li>
+        <li className="bg-accent px-2 py-0.5 rounded">
           IEEEXtreme 15.0 (Country rank 19)
         </li>
         <li className="bg-accent px-2 py-0.5 rounded">
