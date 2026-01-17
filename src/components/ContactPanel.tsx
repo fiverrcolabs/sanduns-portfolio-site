@@ -1,5 +1,5 @@
 
-import { Linkedin, Mail, Phone, Github } from "lucide-react";
+import { Linkedin, Mail, Github } from "lucide-react";
 
 export function ContactPanel() {
   return (
@@ -20,13 +20,6 @@ export function ContactPanel() {
         <Mail className="w-5 h-5 text-red-600 group-hover:text-red-700 transition-colors" />
         <span className="sr-only">Email</span>
       </a>
-      {/* <a
-        href="tel:+94766763114"
-        className="group inline-flex items-center gap-1 rounded-full border border-border px-3 py-1 hover:bg-accent animate-fade-in"
-      >
-        <Phone className="w-5 h-5 text-green-700 group-hover:text-green-800 transition-colors" />
-        <span className="sr-only">Phone</span>
-      </a> */}
       <a
         href="https://github.com/sanduninduwara"
         className="group inline-flex items-center gap-1 rounded-full border border-border px-3 py-1 hover:bg-accent animate-fade-in"
